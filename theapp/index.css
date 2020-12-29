@@ -1,0 +1,16 @@
+#emoji {
+  width: 100px;
+  height: 100px;
+  margin-top: 100px;
+}
+
+#never-gonna:picture-in-picture {
+  box-shadow: 0 0 0 20px gold !important;
+  border: 10px solid blue !important;
+  opacity: 0.5 !important;
+}
+:picture-in-picture {
+  box-shadow: 0 0 0 20px gold !important;
+  border: 10px solid blue !important;
+  opacity: 0.5 !important;
+}
