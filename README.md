@@ -21,3 +21,5 @@ APIs used:
    7) Device Orientation
    
  Note: You may have to set some permissions in browser. 
+
+For more information on APIs and their browser compatibility, visit: https://developer.mozilla.org/en-US/docs/Web/API
