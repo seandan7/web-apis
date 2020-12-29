@@ -7,7 +7,7 @@ To use:
  1) Clone
  2) npm install
  3) npm start
- 4) launch 0.0.0.0:<port>/theapp
+ 4) launch 0.0.0.0:{PORT}/theapp
  
  Click "mobile" button if using a device that supports "devicemotion" or "deviceorientation" APIs
  
