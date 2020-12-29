@@ -3,7 +3,6 @@ Working with various JS Web APIs
 
 A project using various web APIs
 
-
 To use:
  1) Clone
  2) npm install
