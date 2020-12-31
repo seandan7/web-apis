@@ -1,12 +1,17 @@
-/** Battery */
+function batteryInit() {
 
-navigator.getBattery().then(function (battery) {
-
-  battery.addEventListener("levelchange", function () {
-    updateLevelInfo();
+  navigator.getBattery().then(function (battery) {
+    battery.addEventListener("levelchange", function () {
+      updateLevelInfo();
+    });
+    function updateLevelInfo() {
+      alert(
+        `Your battery just dropped to ${
+          battery.level * 100
+        } Percent!\n If you're battery dies, youll give up on Rick Astley!`
+      );
+    }
   });
-  function updateLevelInfo() {
-    alert(`Your battery just dropped to ${battery.level * 100} Percent!\n If you're battery dies, youll give up on Rick Astley!`)
-  }
+}
 
-});
+batteryInit();
